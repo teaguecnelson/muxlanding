@@ -4,7 +4,8 @@ body {
   background-color: #091E2B;
   
   font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
-  color: #EEE0CD;
+/*   color: #EEE0CD; */
+  color: #ffffff;
 }
 
 h1,
@@ -14,7 +15,8 @@ h4,
 h5,
 h6 {
   font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
-  color: #EEE0CD;
+  /*   color: #EEE0CD; */
+  color: #ffffff;
 }
 
 h1 {
@@ -28,15 +30,22 @@ h2 {
 p {
   font-size: 1.25rem;
   font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
-  color: #EEE0CD;
+  /*   color: #EEE0CD; */
+  color: #ffffff;
 }
 
 a:link {
 /*   color: blue */
+  color: #ffffff !important;
 }
 
 a:visited {
 /*   color: purple  */
+}
+
+hr {
+  max-width: 250px;
+  margin: 0.5rem auto;
 }
 
 /* =================== */
